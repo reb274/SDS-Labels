@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="initial-scale=1.0 , minimum-scale=1.0 , maximum-scale=1.0" name="viewport">
+  <title>Statewide Delivery Labels</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body class="bg-light" onload="initDB();">
+<iframe class="invisible" id="output" src="template.html" style="display:none;"></iframe>
+<div class="container-md">
+  <div class="py-3 text-center">
+    <img alt="SDS Logo" class="mt-0 mb-2" height="180" src="sds_logo.png" width="171">
+    <h1>Statewide Delivery Labels</h1>
+    <p class="lead">Choose the source and destination for your labels and click &quot;Print&quot;.</p>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <form id="labels" name="labels">
+        <label class="form-label" for="source">SOURCE</label>
+        <select aria-label="Source address" autocomplete="off" class="form-select form-select-lg mb-3" id="source" onchange="getLabelData();" required>
+          <option disabled selected value="-">Choose a library...</option>
+        </select>
+        <label class="form-label" for="destination">DESTINATION</label>
+        <select aria-label="Destination address" autocomplete="off" class="form-select form-select-lg mb-3" id="destination" onchange="getLabelData();" required>
+          <option disabled selected value="-">Choose a library...</option>
+        </select>
+        <button class="btn btn-lg btn-primary mt-1" onclick="printLabels();" type="button">Print</button>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="js/taffy-min.js"></script>
+<script defer src="js/app.js"></script>
+</body>
+</html>

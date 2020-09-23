@@ -1,0 +1,95 @@
+@media all {
+
+    * {
+        font-family: Verdana, Arial, sans-serif;
+    }
+
+    @font-face {
+        font-family: 'Barcode39';
+        src: url('../fonts/LibreBarcode39Text-Regular.ttf') format('truetype');
+    }
+
+    @page {
+        size: 8.5in 11in;
+        margin: 0.20in;
+        padding: 0;
+        border: none;
+        border-collapse: collapse;
+    }
+
+    body {
+        min-height: 100%;
+        margin: 0;
+    }
+
+    table {
+        display: table;
+        table-layout: fixed;
+        height: 10.15in;
+    }
+
+    /* Reset Boostrap style */
+    table td, table tr {
+        border: none;
+    }
+
+    /* Inner borders only */
+    table td:not(:first-child) {
+        border-left: 2px dashed #D3D3D3 !important;
+    }
+
+    table tr:not(:first-child) td {
+        border-top: 2px dashed #D3D3D3 !important;
+    }
+
+    table h1, h2, h3, h4, h5, h6, p {
+        margin-bottom: 0;
+    }
+
+    .barcode {
+        font-family: "Barcode39", sans-serif;
+        font-size: 36pt;
+        letter-spacing: -2pt;
+    }
+
+    .label-from-id {
+        font-size: 7pt;
+        font-weight: bold;
+    }
+
+    .label-from-name {
+        font-size: 7pt;
+        font-weight: bold;
+    }
+
+    .label-from-address {
+        font-size: 7pt;
+    }
+
+    .label-hub-route-id {
+        font-size: 20pt;
+        font-weight: bold;
+    }
+
+    .label-to-id {
+        font-size: 15pt;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    .label-to-name {
+        font-size: 15pt;
+        font-weight: bold;
+    }
+
+    .label-to-address {
+        font-size: 12pt;
+    }
+
+    .label-seo {
+        font-size: 8pt;
+        margin-left: 14pt;
+        display: inline;
+
+    }
+}
