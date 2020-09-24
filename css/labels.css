@@ -48,8 +48,8 @@
 
     .barcode {
         font-family: "Barcode39", sans-serif;
-        font-size: 36pt;
-        letter-spacing: -2pt;
+        font-size: 28pt;
+        transform: scale(1, 1.4);
     }
 
     .label-from-id {
