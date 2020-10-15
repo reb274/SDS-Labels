@@ -2244,17 +2244,6 @@
     "routeid": 4002
   },
   {
-    "id": 29003,
-    "name": "NEO Reg. Lib. System",
-    "address": "1737 Georgetown Rd. Suite B",
-    "city": "Hudson",
-    "state": "OH",
-    "zip": 44236,
-    "seo": "",
-    "hub": "CLE",
-    "routeid": 4005
-  },
-  {
     "id": 8000,
     "name": "Normal Memorial Library",
     "address": "301 N Eagle Street",
@@ -3408,17 +3397,6 @@
     "seo": "",
     "hub": "DAY",
     "routeid": 2005
-  },
-  {
-    "id": 29004,
-    "name": "SWON Libraries",
-    "address": "10250 Alliance Road Suite 112",
-    "city": "Blue Ash",
-    "state": "OH",
-    "zip": 45242,
-    "seo": "",
-    "hub": "CVG",
-    "routeid": 1010
   },
   {
     "id": 10300,
