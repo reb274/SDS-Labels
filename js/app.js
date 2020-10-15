@@ -4,6 +4,43 @@ let db;
 let data;
 let matches;
 
+function addCustomLabel() {
+
+    // Add new custom record to db
+    var id = document.getElementById('custom-id').value;
+    var name = document.getElementById('custom-name').value;
+    var address = document.getElementById('custom-address').value;
+    var city = document.getElementById('custom-city').value;
+    var state = document.getElementById('custom-state').value;
+    var zip = document.getElementById('custom-zip').value;
+
+    if (id.length > 0) {
+        db.insert({
+            "id": parseInt(id),
+            "name": name,
+            "address": address,
+            "city": city,
+            "state": state,
+            "zip": parseInt(zip),
+            "seo": null,
+            "hub": null,
+            "routeid": null
+        });
+
+        let x = document.createElement("option");
+        x.text = name + " (" + id + ") ";
+        x.value = id;
+        document.getElementById("source").add(x);
+        document.getElementById("source").value = id;
+
+        getLabelData();
+    }
+
+    this_modal.hide();
+
+    return false;
+}
+
 function getLabelData() {
     if (!matches) {
         // Generate NodeList of all label data elements
@@ -87,3 +124,15 @@ function initDB() {
     xmlhttp.open("GET", "output.json", true);
     xmlhttp.send();
 }
+
+// Small helper for modal form focus
+let myModal = document.getElementById('custom-label');
+let myInput = document.getElementById('custom-id');
+myModal.addEventListener('shown.bs.modal', function () {
+    myInput.focus();
+});
+
+// Needed for toggling modal visibility
+let this_modal = new bootstrap.Modal(document.getElementById('custom-label'), {
+    keyboard: false
+})
