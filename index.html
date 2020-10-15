@@ -18,6 +18,7 @@
     <div class="col-md-8">
       <form id="labels" name="labels">
         <label class="form-label" for="source">SOURCE</label>
+        <p class="float-right"><a data-target="#custom-label" data-toggle="modal" href="#">Use custom</a></p>
         <select aria-label="Source address" autocomplete="off" class="form-select form-select-lg mb-3" id="source" onchange="getLabelData();" required>
           <option disabled selected value="-">Choose a library...</option>
         </select>
@@ -29,7 +30,46 @@
       </form>
     </div>
   </div>
+  <!-- Hidden Modal for Custom Label -->
+  <div aria-hidden="true" class="modal fade" id="custom-label" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <form class="row g-3 m-4" onsubmit="event.preventDefault(); addCustomLabel();">
+          <div class="col-md-3">
+            <label class="form-label" for="custom-id">ID</label>
+            <input class="form-control" id="custom-id" type="text">
+          </div>
+          <div class="col-md-9">
+            <label class="form-label" for="custom-name">Name</label>
+            <input class="form-control" id="custom-name" type="text">
+          </div>
+          <div class="col-12">
+            <label class="form-label" for="custom-address">Address</label>
+            <input class="form-control" id="custom-address" placeholder="1234 Main St" type="text">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label" for="custom-city">City</label>
+            <input class="form-control" id="custom-city" type="text">
+          </div>
+          <div class="col-md-3">
+            <label class="form-label" for="custom-state">State</label>
+            <select class="form-select" id="custom-state">
+              <option disabled selected value="OH">OH</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label class="form-label" for="custom-zip">Zip</label>
+            <input class="form-control" id="custom-zip" type="text">
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary float-right" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>
+<script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/taffy-min.js"></script>
 <script defer src="js/app.js"></script>
 </body>
