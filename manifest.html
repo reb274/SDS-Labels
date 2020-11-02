@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="initial-scale=1.0 , minimum-scale=1.0 , maximum-scale=1.0" name="viewport">
+  <title>Statewide Delivery Labels - Manifest</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<div class="container-md">
+  <div class="py-3 text-center">
+    <img alt="SDS Logo" class="mt-0 mb-2" height="180" src="sds_logo.png" width="171">
+    <h1>Statewide Delivery Manifest</h1>
+  </div>
+  <div class="row justify-content-center">
+    <label class="form-label invisible" for="manifest-search">Search</label>
+    <div class="input-group input-group-lg">
+      <input class="form-control" id="manifest-search" onkeyup="searchManifest();" placeholder="Search any keyword..." type="text">
+    </div>
+    <div class="col-12 mt-3" id="manifest">
+      <!--table will populate here-->
+    </div>
+  </div>
+</div>
+</body>
+<script>
+    function fillDivWithJSON(e) {
+        for (e, o = [], r = 0; r < e.length; r++) {
+            for (e, o = [], r = 0; r < e.length; r++)
+                for (let t in e[r]) -1 === o.indexOf(t) && o.push(t);
+
+            let n = document.createElement("table"), a = n.insertRow(-1);
+            for (let r = 0; r < o.length; r++) {
+                let i = document.createElement("th");
+                i.innerHTML = o[r].toUpperCase();
+                a.appendChild(i);
+            }
+            for (let r = 0; r < e.length; r++) {
+                a = n.insertRow(-1);
+                for (let c = 0; c < o.length; c++) {
+                    a.insertCell(-1).innerHTML = e[r][o[c]]
+                }
+            }
+            let l = document.getElementById("manifest");
+            n.setAttribute('class', 'table table-sm table-striped');
+            l.innerHTML = "";
+            l.appendChild(n);
+        }
+    }
+
+    let xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState === 4 && this.status === 200) {
+            let e = JSON.parse(this.responseText);
+            fillDivWithJSON(e);
+            initSearchVars();
+        }
+    };
+    xmlhttp.open("GET", "output.json", true);
+    xmlhttp.send();
+
+    // add search function
+    let input, table, tr;
+
+    function initSearchVars() {
+        input = document.getElementsByTagName("input")[0];
+        table = document.getElementsByTagName("table")[0];
+        tr = table.getElementsByTagName("tr");
+    }
+
+    function searchManifest() {
+        let filter, td, cell, i, j;
+        filter = input.value.toUpperCase();
+        for (i = 1; i < tr.length; i++) {
+            tr[i].style.display = "none";
+            td = tr[i].getElementsByTagName("td");
+            for (j = 0; j < td.length; j++) {
+                cell = tr[i].getElementsByTagName("td")[j];
+                if (cell) {
+                    if (cell.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                        break;
+                    }
+                }
+            }
+        }
+    }
+</script>
+</html>
