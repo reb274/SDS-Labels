@@ -7,16 +7,18 @@ let matches;
 function addCustomLabel() {
 
     // Add new custom record to db
-    var id = document.getElementById('custom-id').value;
+    var id = 99999;
+    var libid = document.getElementById('custom-libid').value;
     var name = document.getElementById('custom-name').value;
     var address = document.getElementById('custom-address').value;
     var city = document.getElementById('custom-city').value;
     var state = document.getElementById('custom-state').value;
     var zip = document.getElementById('custom-zip').value;
 
-    if (id.length > 0) {
+    if (id > 0) {
         db.insert({
             "id": parseInt(id),
+            "libid": parseInt(libid),
             "name": name,
             "address": address,
             "city": city,
@@ -28,7 +30,7 @@ function addCustomLabel() {
         });
 
         let x = document.createElement("option");
-        x.text = name + " (" + id + ") ";
+        x.text = name + " (" + libid + ") ";
         x.value = id;
         document.getElementById("source").add(x);
         document.getElementById("source").value = id;
@@ -53,7 +55,7 @@ function getLabelData() {
     for (const e of matches) {
         switch (e.dataset.label) {
             case "from-id":
-                e.textContent = ["FROM:", source.id].join(" ");
+                e.textContent = ["FROM:", source.libid].join(" ");
                 break;
             case "from-name":
                 e.textContent = source.name;
@@ -65,7 +67,7 @@ function getLabelData() {
                 e.textContent = [source.city, source.state, source.zip].join(" ");
                 break;
             case "to-id":
-                e.textContent = ["TO:", destination.id].join(" ");
+                e.textContent = ["TO:", destination.libid].join(" ");
                 break;
             case "to-name":
                 e.textContent = destination.name;
@@ -80,7 +82,7 @@ function getLabelData() {
                 e.textContent = [destination.hub, "-", destination.routeid].join(" ");
                 break;
             case "barcode":
-                e.textContent = ["*", destination.id, "*"].join(" ");
+                e.textContent = ["*", destination.libid, "*"].join(" ");
                 break;
             case "seo":
                 // empty if no value
@@ -103,7 +105,7 @@ function loadOptions() {
         let x, y;
         x = document.createElement("option");
         y = document.createElement("option");
-        x.text = y.text = record["name"] + " (" + record["id"] + ") "; // ex: Huntington Branch Library (4809)
+        x.text = y.text = record["name"] + " (" + record["libid"] + ") "; // ex: Huntington Branch Library (4809)
         x.value = y.value = record["id"];
         document.getElementById("source").add(x);
         document.getElementById("destination").add(y);
