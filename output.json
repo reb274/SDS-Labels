@@ -4860,7 +4860,7 @@
     "routeid": "4003"
   },
   {
-    "id": 180,
+    "id": 406,
     "libid": 12700,
     "name": "Louisville Lockers",
     "address": "700 Lincoln Ave",
@@ -4872,7 +4872,7 @@
     "routeid": "4004D"
   },
   {
-    "id": 7,
+    "id": 407,
     "libid": 500,
     "name": "Rodman Branch Library",
     "address": "215 East Broadway St",
@@ -4884,7 +4884,7 @@
     "routeid": "4003"
   },
   {
-    "id": 7,
+    "id": 408,
     "libid": 500,
     "name": "Rodman Bookmobile",
     "address": "215 East Broadway St",
