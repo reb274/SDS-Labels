@@ -4894,5 +4894,17 @@
     "seo": "ROK",
     "hub": "CLE",
     "routeid": "4003"
+  },
+    {
+    "id": 409,
+    "libid": 14600,
+    "name": "West Holmes Local Schools",
+    "address": "3102 Glen Dr",
+    "city": "Millersburg",
+    "state": "OH",
+    "zip": 44654,
+    "seo": "HWB",
+    "hub": "CLE",
+    "routeid": "4007"
   }
 ]
