@@ -87,8 +87,9 @@
     }
 
     .label-seo {
-        font-size: 8pt;
+        font-size: 9pt;
         margin-left: 14pt;
+        font-weight: bold;
         display: inline;
 
     }
