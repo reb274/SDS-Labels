@@ -27,7 +27,7 @@ function initDB() {
     xmlhttp.send();
 }
 ```
-If the JSON structure is malformed, the entries will __not__ populate the dropdown menus. If the drodown menus are empty, verify the structure of the JSON data, and correct it. A single label object will look like the following:
+If the JSON structure is malformed, the entries will __not__ populate the dropdown menus. If the dropdown menus are empty, verify the structure of the JSON data, and correct it. A single label object will look like the following:
 
 ```json
   {
