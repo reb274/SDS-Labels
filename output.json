@@ -4870,5 +4870,29 @@
     "seo": "",
     "hub": "CVG",
     "routeid": "1005"
+  },
+    {
+    "id": 411,
+    "libid": 16300,
+    "name": "LCL Downtown Newark Driveup",
+    "address": "101 West Main St",
+    "city": "Newark",
+    "state": "OH",
+    "zip": 43055,
+    "seo": "LDU",
+    "hub": "CMH",
+    "routeid": "1005"
+  },
+    {
+    "id": 412,
+    "libid": 16300,
+    "name": "LCL West Newark Emerson R Miller Driveup",
+    "address": "101 West Main St",
+    "city": "Newark",
+    "state": "OH",
+    "zip": 43055,
+    "seo": "LMD",
+    "hub": "CMH",
+    "routeid": "1005"
   }
 ]
