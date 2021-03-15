@@ -2184,54 +2184,6 @@
     "routeid": "1007"
   },
   {
-    "id": 183,
-    "libid": 12904,
-    "name": "Manchester P. L. [Adams Co.]",
-    "address": "401 Pike St.",
-    "city": "Manchester",
-    "state": "OH",
-    "zip": 45144,
-    "seo": "ACM",
-    "hub": "CVG",
-    "routeid": "1006"
-  },
-  {
-    "id": 184,
-    "libid": 12905,
-    "name": "North Adams P.L. [Adams County]",
-    "address": "2469 Moores Road",
-    "city": "Seaman",
-    "state": "OH",
-    "zip": 45679,
-    "seo": "ACN",
-    "hub": "CVG",
-    "routeid": "1007"
-  },
-  {
-    "id": 185,
-    "libid": 12998,
-    "name": "West Union P. L. [Adams Co.]",
-    "address": "212 E. Sparks St.",
-    "city": "West Union",
-    "state": "OH",
-    "zip": 45693,
-    "seo": "ACW",
-    "hub": "CVG",
-    "routeid": "1007"
-  },
-  {
-    "id": 186,
-    "libid": 12998,
-    "name": "Adams County Outreach",
-    "address": "212 E. Sparks St.",
-    "city": "West Union",
-    "state": "OH",
-    "zip": 45693,
-    "seo": "ACO",
-    "hub": "CVG",
-    "routeid": "1007"
-  },
-  {
     "id": 187,
     "libid": 13000,
     "name": "Mansfield Richland Co. P.L.",
