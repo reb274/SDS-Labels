@@ -3038,7 +3038,7 @@
   {
     "id": 258,
     "libid": 16300,
-    "name": "Licking County Library",
+    "name": "LCL Downtown Newark",
     "address": "101 West Main Street",
     "city": "Newark",
     "state": "OH",
@@ -3050,7 +3050,7 @@
   {
     "id": 259,
     "libid": 16300,
-    "name": "Licking County Bookmobile",
+    "name": "LCL Bookmobile",
     "address": "101 West Main Street",
     "city": "Newark",
     "state": "OH",
@@ -3062,7 +3062,7 @@
   {
     "id": 260,
     "libid": 16300,
-    "name": "Licking County Broad Street",
+    "name": "LCL 24-Hour Kiosk COTC Pataskala Campus",
     "address": "101 West Main Street",
     "city": "Newark",
     "state": "OH",
@@ -3074,7 +3074,7 @@
   {
     "id": 261,
     "libid": 16300,
-    "name": "Buckeye Lake Library",
+    "name": "LCL Buckeye Lake",
     "address": "101 West Main Street",
     "city": "Newark",
     "state": "OH",
@@ -3098,7 +3098,7 @@
   {
     "id": 263,
     "libid": 16300,
-    "name": "Hebron Library",
+    "name": "LCL Hebron",
     "address": "101 West Main Street",
     "city": "Newark",
     "state": "OH",
@@ -3110,7 +3110,7 @@
   {
     "id": 264,
     "libid": 16300,
-    "name": "Emerson R. Miller Library",
+    "name": "LCL West Newark Emerson R. Miller",
     "address": "101 West Main Street",
     "city": "Newark",
     "state": "OH",
@@ -3122,7 +3122,7 @@
   {
     "id": 265,
     "libid": 16300,
-    "name": "Licking County Legacy Park",
+    "name": "LCL 24 Hour Kiosk Legacy Park Hanover",
     "address": "101 West Main Street",
     "city": "Newark",
     "state": "OH",
@@ -3134,7 +3134,7 @@
   {
     "id": 266,
     "libid": 16304,
-    "name": "Mary E. Babcock Library",
+    "name": "LCL Johnstown Mary E. Babcock",
     "address": "320 North Main Street",
     "city": "Johnstown",
     "state": "OH",
@@ -3146,7 +3146,7 @@
   {
     "id": 267,
     "libid": 16306,
-    "name": "Hervey Memorial Library",
+    "name": "LCL Utica Hervey Memorial",
     "address": "15 N. Main Street",
     "city": "Utica",
     "state": "OH",
