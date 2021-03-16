@@ -2184,6 +2184,54 @@
     "routeid": "1007"
   },
   {
+    "id": 183,
+    "libid": 12904,
+    "name": "Manchester P. L. [Adams Co.]",
+    "address": "157 High St.",
+    "city": "Peebles",
+    "state": "OH",
+    "zip": 45660,
+    "seo": "ACM",
+    "hub": "CVG",
+    "routeid": "1007"
+  },
+  {
+    "id": 184,
+    "libid": 12905,
+    "name": "North Adams P.L. [Adams County]",
+    "address": "157 High St.",
+    "city": "Peebles",
+    "state": "OH",
+    "zip": 45660,
+    "seo": "ACN",
+    "hub": "CVG",
+    "routeid": "1007"
+  },
+  {
+    "id": 185,
+    "libid": 12998,
+    "name": "West Union P. L. [Adams Co.]",
+    "address": "157 High St.",
+    "city": "Peebles",
+    "state": "OH",
+    "zip": 45660,
+    "seo": "ACW",
+    "hub": "CVG",
+    "routeid": "1007"
+  },
+  {
+    "id": 186,
+    "libid": 12998,
+    "name": "Adams County Outreach",
+    "address": "157 High St.",
+    "city": "Peebles",
+    "state": "OH",
+    "zip": 45660,
+    "seo": "ACO",
+    "hub": "CVG",
+    "routeid": "1007"
+  },
+  {
     "id": 187,
     "libid": 13000,
     "name": "Mansfield Richland Co. P.L.",
