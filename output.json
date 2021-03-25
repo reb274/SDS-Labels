@@ -4776,18 +4776,6 @@
     "routeid": "1002"
   },
   {
-    "id": 399,
-    "libid": 90001,
-    "name": "Lake Erie Correctional Inst.",
-    "address": "501 Thompson Dr.",
-    "city": "Coneaut",
-    "state": "OH",
-    "zip": 44030,
-    "seo": "",
-    "hub": "CLE",
-    "routeid": "4015"
-  },
-  {
     "id": 400,
     "libid": 90003,
     "name": "Holden Arboretum",
