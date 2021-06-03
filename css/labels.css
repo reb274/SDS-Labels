@@ -4,11 +4,6 @@
         font-family: Verdana, Arial, sans-serif;
     }
 
-    @font-face {
-        font-family: 'Barcode39';
-        src: url('../fonts/LibreBarcode39Text-Regular.ttf') format('truetype');
-    }
-
     @page {
         size: 8.5in 11in;
         margin: 0.20in;
@@ -46,12 +41,6 @@
         margin-bottom: 0;
     }
 
-    .barcode {
-        font-family: "Barcode39", sans-serif;
-        font-size: 28pt;
-        transform: scale(1, 1.4);
-    }
-
     .label-from-id {
         font-size: 7pt;
         font-weight: bold;
@@ -66,9 +55,17 @@
         font-size: 7pt;
     }
 
-    .label-hub-route-id {
-        font-size: 20pt;
+    .label-hub {
+        margin-top: -24pt;
+        font-size: 36pt;
         font-weight: bold;
+        line-height: 1;
+    }
+
+    .label-route-id {
+        font-size: 36pt;
+        font-weight: bold;
+        line-height: 1;
     }
 
     .label-to-id {

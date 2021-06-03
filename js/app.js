@@ -78,11 +78,11 @@ function getLabelData() {
             case "to-address-2":
                 e.textContent = [destination.city, destination.state, destination.zip].join(" ");
                 break;
-            case "hub-route-id":
-                e.textContent = [destination.hub, "-", destination.routeid].join(" ");
+            case "hub":
+                e.textContent = destination.hub
                 break;
-            case "barcode":
-                e.textContent = ["*", destination.libid, "*"].join(" ");
+            case "route-id":
+                e.textContent = destination.routeid
                 break;
             case "seo":
                 // empty if no value
