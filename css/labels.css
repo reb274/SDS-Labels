@@ -17,6 +17,10 @@
         margin: 0;
     }
 
+    h1 {
+        margin-bottom: 0;
+    }
+
     table {
         display: table;
         table-layout: fixed;
@@ -63,7 +67,7 @@
     }
 
     .label-route-id {
-        font-size: 36pt;
+        font-size: 32pt;
         font-weight: bold;
         line-height: 1;
     }
