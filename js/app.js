@@ -8,7 +8,7 @@ function addCustomLabel() {
 
     // Add new custom record to db
     var id = 99999;
-    var libid = document.getElementById('custom-libid').value;
+    var libid = String(document.getElementById('custom-libid').value);
     var name = document.getElementById('custom-name').value;
     var address = document.getElementById('custom-address').value;
     var city = document.getElementById('custom-city').value;
@@ -18,7 +18,7 @@ function addCustomLabel() {
     if (id > 0) {
         db.insert({
             "id": parseInt(id),
-            "libid": parseInt(libid),
+            "libid": libid,
             "name": name,
             "address": address,
             "city": city,
@@ -129,7 +129,7 @@ function initDB() {
 
 // Small helper for modal form focus
 let myModal = document.getElementById('custom-label');
-let myInput = document.getElementById('custom-id');
+let myInput = document.getElementById('custom-libid');
 myModal.addEventListener('shown.bs.modal', function () {
     myInput.focus();
 });
