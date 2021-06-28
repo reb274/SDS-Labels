@@ -5146,17 +5146,5 @@
     "seo": "GTS",
     "hub": "DAY",
     "routeid": "07-25"
-  },
-  {
-    "id": 430,
-    "libid": "28000",
-    "name": "State Library of Ohio",
-    "address": "274 E First Ave",
-    "city": "Columbus",
-    "state": "OH",
-    "zip": 43201,
-    "seo": "",
-    "hub": "COL",
-    "routeid": "17-16"
   }
 ]
