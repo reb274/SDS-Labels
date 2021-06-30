@@ -5146,5 +5146,17 @@
     "seo": "GTS",
     "hub": "DAY",
     "routeid": "07-25"
+  },
+    {
+    "id": 430,
+    "libid": "21200",
+    "name": "Mohawk Community Library",
+    "address": "200 S Sycamore Avenue",
+    "city": "Sycamore",
+    "state": "OH",
+    "zip": 44882,
+    "seo": "MCL",
+    "hub": "",
+    "routeid": ""
   }
 ]
