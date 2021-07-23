@@ -5147,7 +5147,7 @@
     "hub": "DAY",
     "routeid": "07-25"
   },
-    {
+  {
     "id": 430,
     "libid": "21200",
     "name": "Mohawk Community Library",
@@ -5158,5 +5158,17 @@
     "seo": "MCL",
     "hub": "TOL",
     "routeid": "13-24"
+  },
+  {
+    "id": 431,
+    "libid": "24300",
+    "name": "Wilmington P. L. of Clinton Co. (WML)",
+    "address": "268 N South Street",
+    "city": "Wilmington",
+    "state": "OH",
+    "zip": 45177,
+    "seo": "WML",
+    "hub": "CIN",
+    "routeid": "02-06"
   }
 ]
