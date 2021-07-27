@@ -1572,18 +1572,6 @@
     "routeid": "12-13"
   },
   {
-    "id": 132,
-    "libid": "6400",
-    "name": "Defiance Mall Branch",
-    "address": "320 Fort Street",
-    "city": "Defiance",
-    "state": "OH",
-    "zip": 43512,
-    "seo": "DPX",
-    "hub": "TOL",
-    "routeid": "12-12"
-  },
-  {
     "id": 133,
     "libid": "6600",
     "name": "Delphos P. L.",
