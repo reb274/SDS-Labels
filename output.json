@@ -1551,25 +1551,25 @@
     "id": 130,
     "libid": "6403",
     "name": "Johnson Memorial Library",
-    "address": "116 W High Street",
-    "city": "Hicksville",
+    "address": "320 Fort Street",
+    "city": "Defiance",
     "state": "OH",
-    "zip": 43526,
+    "zip": 43512,
     "seo": "DJM",
     "hub": "TOL",
-    "routeid": "12-10"
+    "routeid": "12-12"
   },
   {
     "id": 131,
     "libid": "6404",
     "name": "Sherwood Branch Library",
-    "address": "117 N Harrison Street",
-    "city": "Sherwood",
+    "address": "320 Fort Street",
+    "city": "Defiance",
     "state": "OH",
-    "zip": 43556,
+    "zip": 43512,
     "seo": "DSB",
     "hub": "TOL",
-    "routeid": "12-13"
+    "routeid": "12-12"
   },
   {
     "id": 133,
