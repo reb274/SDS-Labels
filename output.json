@@ -1,17 +1,5 @@
 [
   {
-    "id": 1,
-    "libid": "1",
-    "name": "Central Library Consortium",
-    "address": "101 S. Stygler Rd",
-    "city": "Columbus",
-    "state": "OH",
-    "zip": 43230,
-    "seo": "",
-    "hub": "COL",
-    "routeid": "17-02"
-  },
-  {
     "id": 2,
     "libid": "100",
     "name": "Ada P. L.",
