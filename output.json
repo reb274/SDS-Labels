@@ -5100,18 +5100,6 @@
     "routeid": "02-17"
   },
   {
-    "id": 428,
-    "libid": "90003",
-    "name": "Holden Arboretum",
-    "address": "9500 Sperry Road",
-    "city": "Kirtland",
-    "state": "OH",
-    "zip": 44094,
-    "seo": "",
-    "hub": "",
-    "routeid": ""
-  },
-  {
     "id": 429,
     "libid": "97002",
     "name": "Marion Lawrence Memorial Library (Gratis Public library)",
