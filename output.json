@@ -5134,5 +5134,17 @@
     "seo": "WML",
     "hub": "CIN",
     "routeid": "02-06"
+  },
+    {
+    "id": 432,
+    "libid": "22700",
+    "name": "Carnegie P/L Washington C. H. - 24/7 Pickup Lockers",
+    "address": "127 S North St",
+    "city": "Washington C H",
+    "state": "OH",
+    "zip": 43160,
+    "seo": "WCH24",
+    "hub": "CIN",
+    "routeid": "02-03"
   }
 ]
