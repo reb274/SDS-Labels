@@ -5146,5 +5146,29 @@
     "seo": "WCH24",
     "hub": "CIN",
     "routeid": "02-03"
+  },
+    {
+    "id": 433,
+    "libid": "1203",
+    "name": "ACDL Home Delivery",
+    "address": "860 Sherman Street",
+    "city": "Geneva",
+    "state": "OH",
+    "zip": 44041,
+    "seo": "ADX",
+    "hub": "CLE",
+    "routeid": "08-24"
+  },
+  {
+    "id": 434,
+    "libid": "24104",
+    "name": "North Fairfield Lockers",
+    "address": "5 E. Main St.",
+    "city": "North Fairfield",
+    "state": "OH",
+    "zip": 44855,
+    "seo": "WIN24",
+    "hub": "TOL",
+    "routeid": "13-22"
   }
 ]
