@@ -5170,5 +5170,77 @@
     "seo": "WIN24",
     "hub": "TOL",
     "routeid": "13-22"
+  },
+  {
+    "id": 435,
+    "libid": "18800",
+    "name": "Ida Rupp Hold Locker",
+    "address": "310 Madison Street",
+    "city": "Port Clinton",
+    "state": "OH",
+    "zip": 43452,
+    "seo": "PLL",
+    "hub": "TOL",
+    "routeid": "13-17"
+  },
+  {
+    "id": 436,
+    "libid": "18801",
+    "name": "Marblehead Hold Locker",
+    "address": "710 W. Main Street",
+    "city": "Marblehead",
+    "state": "OH",
+    "zip": 43440,
+    "seo": "PLM",
+    "hub": "TOL",
+    "routeid": "13-16"
+  },
+  {
+    "id": 437,
+    "libid": "17600",
+    "name": "Ottawa Lockers",
+    "address": "136 Putnam Parkway",
+    "city": "Ottawa",
+    "state": "OH",
+    "zip": 45875,
+    "seo": "PTX",
+    "hub": "TOL",
+    "routeid": "14-11"
+  },
+  {
+    "id": 438,
+    "libid": "17600",
+    "name": "Kalida Lockers",
+    "address": "136 Putnam Parkway",
+    "city": "Ottawa",
+    "state": "OH",
+    "zip": 45875,
+    "seo": "PTY",
+    "hub": "TOL",
+    "routeid": "14-11"
+  },
+  {
+    "id": 439,
+    "libid": "17600",
+    "name": "Ottoville Lockers",
+    "address": "136 Putnam Parkway",
+    "city": "Ottawa",
+    "state": "OH",
+    "zip": 45875,
+    "seo": "PTM",
+    "hub": "TOL",
+    "routeid": "14-11"
+  },
+  {
+    "id": 440,
+    "libid": "18800",
+    "name": "Erie Islands Hold Locker",
+    "address": "310 Madison Street",
+    "city": "Port Clinton",
+    "state": "OH",
+    "zip": 43452,
+    "seo": "PLE",
+    "hub": "TOL",
+    "routeid": "13-17"
   }
 ]
