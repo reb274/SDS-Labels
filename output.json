@@ -4662,18 +4662,7 @@
 	"seo": "ADS",
 	"hub": "CLE",
 	"routeid": "08-20"
-}, {
-	"id": 427,
-	"libid": "80800",
-	"name": "Chatfield College",
-	"address": "20918 State Route 251",
-	"city": "St Martin",
-	"state": "OH",
-	"zip": 45118,
-	"seo": "OCC",
-	"hub": "CIN",
-	"routeid": "02-17"
-}, {
+},  {
 	"id": 429,
 	"libid": "97002",
 	"name": "Marion Lawrence Memorial Library (Gratis Public library)",
